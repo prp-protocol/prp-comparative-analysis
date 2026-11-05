@@ -1,0 +1,25 @@
+{
+  "schema_version": 1,
+  "owner": "prp-comparative-analysis",
+  "research_revision": "7.97",
+  "counts": {
+    "Yes": 912,
+    "No": 769,
+    "Pending": 55
+  },
+  "references_are_downloads": false,
+  "private_research_matrix_sha256": "9f83a9cef4a0ad8f5eadf32f0459ec589fb834f0ef7df14bb53d4f0fd2879677",
+  "private_data_export_sha256": "7407972a4871b9e0ba91ef1e9c89354b952f5614940a574b10e22572d49fd064",
+  "private_data_export_bytes": 4697402,
+  "recorded_live_revision": "7.96",
+  "recorded_live_data_sha256": "c4071678721d1d32823b1123d5ce762aad6c91b2ddc7b6040b9d95dcadd2891e",
+  "code": [
+    {
+      "path": "tools/evidence_levels.py",
+      "sha256": "c8c808ded2d46d01a2e6fc83f4179718b4ed6ddc6acbd5b7dc48b3ff7d36e2e6",
+      "origin": "Accepted project-authored research annotation module",
+      "modified": false
+    }
+  ],
+  "availability": "Underlying research and evidence are held separately under controlled access; identifiers confer no access or redistribution permission."
+}
