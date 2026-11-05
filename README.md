@@ -1,13 +1,13 @@
 # PRP comparative analysis
 
-This initial public subset prepared for publication documents the comparison methodology and research ownership. It includes project-authored annotation code. It does not include the private research corpus or a complete executable comparison dataset.
+Research sources and results for the protocol and stack comparison consumed by the PRP website. This repository contains comparison material, not the PRP protocol implementation or its dependencies.
 
-The research owner is prp-comparative-analysis. It maintains criteria, selected profiles, capability verdicts, evidence annotations, investigation priorities and reproducibility. Operating documentation is in English. Primary sources retain their original language and notices in separate custody.
+The validated research result is [results/comparison-7.97.json](results/comparison-7.97.json): 62 criteria, 28 selected stacks and 1,736 cells (912 Yes, 769 No, 55 Pending). [provenance.json](provenance.json) supplies its SHA-256 and byte length. The result preserves the accepted export without changing findings.
 
-Accepted research revision 7.97 has 1,736 cells: 912 Yes, 769 No and 55 Pending. The last recorded website baseline remains 7.96. These are recorded validation results, not a new deployment or live observation.
+Each cell includes its rationale, qualifications, evidence level and source citations. Public source URLs point to their original publishers. Non-URL evidence references identify research records not shipped here; do not turn them into repository links. Logo filenames and attribution metadata are preserved, but image assets are not included; consumers must not assume these files exist.
 
-Read [METHODOLOGY.md](METHODOLOGY.md), [PUBLICATION.md](PUBLICATION.md), [RECOVERY.md](RECOVERY.md) and [RIGHTS.md](RIGHTS.md). Stable integrity references are in [provenance.json](provenance.json). A digest identifies bytes; it is not a download URL or an access grant.
+See [METHODOLOGY.md](METHODOLOGY.md) for the existing assessment policy and [RIGHTS.md](RIGHTS.md) for distribution limits.
 
-The module tools/evidence_levels.py is copied without modification from the accepted research workspace. Its aligned, label and detail_html functions use supplied values; fingerprint takes a supplied dataset. Its annotate function additionally expects evidence-reviews.json beside the module. That private file is not shipped, and full annotation or dataset regeneration is not available from this subset alone. Do not place private evidence in a public checkout to satisfy that dependency. Any future interface adaptation must preserve the accepted policy and be reviewed separately.
+The comparison annotation logic is in `tools/evidence_levels.py`. Its `annotate` function requires a separate review input that is not included; this module alone is not a complete regeneration pipeline.
 
-This is the initial public subset prepared for publication. Remote publication and visibility require separate verification. No software or documentation license grant is added.
+Website consumers should select an exact Git commit and verify the result digest before importing an update. A new research revision does not automatically change the version displayed by the website.
