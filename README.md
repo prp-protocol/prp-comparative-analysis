@@ -2,7 +2,7 @@
 
 Research sources and results for the protocol and stack comparison consumed by the PRP website. This repository contains comparison material, not the PRP protocol implementation or its dependencies.
 
-The current result is [revision 8.00](results/comparison-8.00.json), covering 62 criteria and 28 stacks. Seven evidence annotations were updated from [revision 7.99](results/comparison-7.99.json). All 1,736 verdicts are preserved (912 Yes, 769 No, 55 Pending). The site reads the single current result and its SHA-256 from [provenance.json](provenance.json).
+The current result is [revision 8.01](results/comparison-8.01.json), covering 62 criteria and 28 stacks. Three DTN interoperability annotations were updated from [revision 8.00](results/comparison-8.00.json). All 1,736 verdicts are preserved (912 Yes, 769 No, 55 Pending). The site reads the single current result and its SHA-256 from [provenance.json](provenance.json).
 
 Each cell includes its rationale, qualifications, evidence level and source citations. Public source URLs point to their original publishers. Non-URL evidence references identify research records not shipped here; do not turn them into repository links. Logo filenames and attribution metadata are preserved, but image assets are not included; consumers must not assume these files exist.
 
