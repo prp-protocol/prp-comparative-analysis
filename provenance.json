@@ -13,19 +13,6 @@
         "No": 769,
         "Pending": 55
       }
-    },
-    {
-      "path": "results/comparison-7.97.json",
-      "revision": "7.97",
-      "schema_version": 2,
-      "bytes": 4697402,
-      "sha256": "7407972a4871b9e0ba91ef1e9c89354b952f5614940a574b10e22572d49fd064",
-      "cells": 1736,
-      "counts": {
-        "Yes": 912,
-        "No": 769,
-        "Pending": 55
-      }
     }
   ],
   "source_citations": "Each cell includes sources and evidence references. Non-URL references identify research records; they are not downloadable files in this repository.",
