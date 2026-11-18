@@ -2,11 +2,11 @@
   "schema_version": 1,
   "results": [
     {
-      "path": "results/comparison-7.99.json",
-      "revision": "7.99",
+      "path": "results/comparison-8.00.json",
+      "revision": "8.00",
       "schema_version": 2,
-      "bytes": 4694697,
-      "sha256": "cffdab30c5619739e7ca04927f6d6c562287d067a08f8bf034a7a0614513e37b",
+      "bytes": 4691842,
+      "sha256": "48d417797186fde281219a8f7a87387ffed8848cc0a145d7ff4bf19bb74fbcb0",
       "cells": 1736,
       "counts": {
         "Yes": 912,

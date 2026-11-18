@@ -2,7 +2,7 @@
 
 Research sources and results for the protocol and stack comparison consumed by the PRP website. This repository contains comparison material, not the PRP protocol implementation or its dependencies.
 
-The validated research result is [results/comparison-7.99.json](results/comparison-7.99.json): 62 criteria, 28 selected stacks and 1,736 cells (912 Yes, 769 No, 55 Pending). [provenance.json](provenance.json) supplies its SHA-256 and byte length. Revision 7.99 documents TCP connection continuity and attachment mobility for Tailscale. The site reads exactly one current result from the manifest. [Revision 7.98](results/comparison-7.98.json) and [revision 7.97](results/comparison-7.97.json) are available for historical comparisons.
+The current result is [revision 8.00](results/comparison-8.00.json), covering 62 criteria and 28 stacks. Seven evidence annotations were updated from [revision 7.99](results/comparison-7.99.json). All 1,736 verdicts are preserved (912 Yes, 769 No, 55 Pending). The site reads the single current result and its SHA-256 from [provenance.json](provenance.json).
 
 Each cell includes its rationale, qualifications, evidence level and source citations. Public source URLs point to their original publishers. Non-URL evidence references identify research records not shipped here; do not turn them into repository links. Logo filenames and attribution metadata are preserved, but image assets are not included; consumers must not assume these files exist.
 
