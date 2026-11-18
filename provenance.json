@@ -2,6 +2,19 @@
   "schema_version": 1,
   "results": [
     {
+      "path": "results/comparison-7.98.json",
+      "revision": "7.98",
+      "schema_version": 2,
+      "bytes": 4695180,
+      "sha256": "a8c61c3c6aac480a9fdd3e8f35ef95eb4dbf5806c8d44dfd57e1d874bc025b21",
+      "cells": 1736,
+      "counts": {
+        "Yes": 912,
+        "No": 769,
+        "Pending": 55
+      }
+    },
+    {
       "path": "results/comparison-7.97.json",
       "revision": "7.97",
       "schema_version": 2,
